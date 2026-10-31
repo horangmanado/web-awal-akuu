@@ -1,0 +1,38 @@
+body{
+    font-family: 'segoe UI';
+    background-color: rgb(106, 116, 158);
+    color: rgb(48, 63, 152);
+    padding: 30px;
+}
+
+.kontainer{
+    max-width: 500px;
+    background: rgb(120, 128, 161);
+    padding: 20px;
+    border-radius: 1px;
+    border: 1px solid rgb(78, 84, 105);
+}
+.highlight {
+    background-color: rgb(132, 138, 123);
+    border-left: 4px solid rgb(144, 107, 37);
+    padding-left: 10px;
+    transition: all 0.5s ease;
+}
+ul{
+    line-height: 1.0;
+}
+
+.btn-aksi{
+    margin-top: 20px;
+    padding: 3px 3px;
+    background-color: rgb(132, 143, 143);
+    color: rgb(51, 62, 80);
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-aksi:hover{
+    background-color: yellowgreen;
+    color: aliceblue;
+}
